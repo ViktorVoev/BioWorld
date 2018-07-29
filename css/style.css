@@ -263,7 +263,7 @@ float: left;
 #welcome{
 	z-index: 1;
 	position: absolute;
-    bottom: 190px;
+    bottom: 25%;
     left: 0px;
     right: 0px;
     margin-left: auto;
