@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BioWorld</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="dropdown">
+					  <img src="images/user.gif" id="user" title="user" alt="USER"><button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="myprofile">Моят Профил
+					  <span class="caret"></span></button>
+					  	<ul class="dropdown-menu">
+						    <li><a href="Register.html">Регистрация</a></li>
+						    <li><a href="#">Вход</a></li>
+					   </ul>
+				</div>
+			</div>
+			<div class="col-md-1">
+
+				<div class="dropdown" id="setts">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/settings.gif" id="settings" title="setts" alt="settings">
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Плащане (0)</a></li>
+						    <li><a href="#">Кошница</a></li>
+						    <li><a href="#">Любими</a></li>
+						  </ul>
+				</div>
+			</div>
+			<div class="col-md-1">
+				<div class="dropdown" id="money">
+						  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/money-paper-of-dollars.gif" id="bills-of-dollars" title="dollars" alt="dollars">
+						  <span class="caret"></span></button>
+						<ul class="dropdown-menu">
+						    <li><a href="#">&euro; EURO</a></li>
+						    <li><a href="#">$ US</a></li>
+						    <li><a href="#">Български ЛЕВ</a></li>
+						    <li><a href="#">Румънски ЛЕИ</a></li>
+						</ul>
+				</div>
+				
+			</div>
+			<div class="col-md-3 col-md-offset-5">
+				<img src="images/shopping-cart.gif" id="shop_cart" title="shop-cart" alt="card-for-shopping"><input type="text" name="cash" id="cash_now" placeholder="0 - артикули - 0.00лв">
+				
+					<a href="#"><img id="languageBul" src="images/bulgaria.gif" title="langbul" alt="bul-lang"></a>
+					<a href="#"><img id="languageEng" src="images/language.gif" title="langeng" alt="eng-lang"></a>
+				
+			</div>
+		</div>
+	</div>
+</header>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div class="container">
+		<img src="images/Welcome.gif" id="welcome" title="welcome" alt="Coming-text">
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3 col-md-offset-9">
+			<form action="#">
+				<input type="search" name="searching" id="search_form" placeholder="Search...">
+				<input type="image" src="images/search.gif" alt="submit" name="Search" id="srch_btn">
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		    <div class="col-md-3">
+			    <img src="images/Logo2.gif" id="logo" title="logo" alt="logo">
+		    </div>
+			<div class="col-md-10 col-md-offset-2">
+				<nav class="navbar navbar-inverse">
+											  <div class="container-fluid">
+											    <ul class="nav navbar-nav">
+											      	<li><a href="#">Начало</a></li>
+												      <li class="dropdown">
+												        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Продукти
+												        <span class="caret"></span></a>
+												        <ul class="dropdown-menu">
+												          <div id="dropmenu1">
+													          <li><a href="#">Хляб и Хлебни изделия</a></li>
+													          <li><a href="#">Яйца, Мляко и<br>Млечни продукти</a></li>
+													          <li><a href="#">Плодове и Зеленчуци</a></li>
+													          <li><a href="#">Месо, Месни продукти,<br>Тофу</a></li>
+													          <li><a href="#">Зехтин,<br>Разтителни масла,<br>Маслини и Оцет</a></li>
+													          <li><a href="#">Варива</a></li>
+												        	</div>	
+													        <div id="dropmenu2">
+													          <li><a href="#">Захар, Мед и<br>Подсладители</a></li>
+													          <li><a href="#">Сол и Подправки</a></li>
+													          <li><a href="#">Консерви и Буркани</a></li>
+													          <li><a href="#">Суперхрани и Добавки</a></li>
+													          <li><a href="#">Безглутенови продукти</a></li>
+													          <li><a href="#">Детски храни и<br>Детска козметика</a></li>
+													        </div>
+													        <div id="dropmenu3">
+													          <li><a href="#">Ядки и Семена</a></li>
+													          <li><a href="#">Зърнени храни и Мюсли</a></li>
+													          <li><a href="#">Напитки</a></li>
+													          <li><a href="#">Вино и Бира</a></li>
+													          <li><a href="#">Чай, Кафе и Какао</a></li>
+													          <li><a href="#">Бисквити, Десерти и<br>Захарни изделия</a></li>
+													        </div>
+												        </ul>
+												      </li>
+											      <li><a href="#">Горещи оферти</a></li>
+											      <li><a href="#">Полезно</a></li>
+											      <li><a href="#">Контакти</a></li>
+											    </ul>
+											  </div>
+				</nav>
+			</div>
+	</div>
+</div>
+
+
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/Chasing_sunrise_home_page_slider_1.jpg" alt="BioFood">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/2.jpg" alt="BioFood">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+        <div class="item">
+      <img src="images/natural-dry-herbal-tea-with-meadow-flowers-on-a-wooden-spoon.jpg" alt="BioFood">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+</div>
+<div class="container">
+	<div class="row" id="mid">
+		<div class="col-md-3">
+			<div id="mid1">
+				<div class="line"></div>
+				<img src="images/Top.gif" title="top" alt="first-col" class="tops">
+				<div class="line"></div>
+				<div class="arrows">
+					<a href="#" class="arrow"><</a>
+					<a href="#" class="arrow">></a>
+				</div>
+				<div id="prod1">
+					<a href="#"><img src="images/prod1.gif" title="prod1" alt="product1"></a>
+					<p>Шафран 1 гр,<br>Krokos Kozanis</p>
+				</div>
+				<div class="bl_line"></div>
+				<div id="prod2">
+					<a href="#"><img src="images/prod2.gif" title="prod2" alt="product2"></a>
+					<p>Царевични сухари с<br>черен шоколад<br>без глутен,<br>без захар 130 гр</p>
+				</div>
+				<div class="bl_line"></div>
+				<div id="prod3">
+					<a href="#"><img src="images/prod3.gif" title="prod3" alt="product3"></a>
+					<p>Шоколадово-карамелен<br>флейкс без глутен,<br>без яйца 145 гр</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+				<div id="mid2">
+					<div class="line"></div>
+					<img src="images/Popular.gif" title="popular" alt="second-col" class="tops">
+					<div class="line"></div>
+					<div class="arrows">
+						<a href="#" class="arrow"><</a>
+						<a href="#" class="arrow">></a>
+					</div>
+					<div id="prod4">
+						<a href="#"><img src="images/prod4.gif" title="prod4" alt="product4"></a>
+						<div class="prod-wrap">
+							<p>Сода бикарбонат<br> без глутен,<br>без алуминий 200 гр</p>
+							<img src="images/2.02.gif" title="old-price" alt="high-price">
+							<img src="images/1.90.gif" title="new-price" alt="low-price">
+						</div>
+					</div>
+				
+					<div id="prod5">
+						<a href="#"><img src="images/prod5.gif" title="prod5" alt="product5"></a>
+						<div class="prod-wrap">
+							<p>Био Кола със сироп<br>от Агаве 330 мл<br>КЕН</p>
+							<img src="images/2.77.gif" title="price" alt="price">
+						</div>
+					</div>
+					<div class="bl_line"></div>
+					<div class="empty"></div>
+					<div class="bl_line"></div>
+					<div id="prod6">
+						<a href="#"><img src="images/prod6.gif" title="prod6" alt="product6"></a>
+						<div class="prod-wrap">
+							<p>Био Елда-Гречка 500 гр</p>
+							<img src="images/3.42.gif" title="old-price" alt="high-price">
+							<img src="images/2.83.gif" title="new-price" alt="low-price">
+						</div>
+					</div>
+					<div id="prod7">
+						<a href="#"><img src="images/prod7.gif" title="prod7" alt="product7"></a>
+						<div class="prod-wrap">
+							<p>Био Нишесте от<br>Тапиока 250 гр</p>
+							<img src="images/2.28.gif" title="price" alt="price">
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="col-md-3">
+			<div id="mid3">
+				<div class="line"></div>
+				<img src="images/hotofers.gif" title="hots-offers" alt="hots-offers" class="tops">
+				<div class="line"></div>
+				<div class="arrows">
+					<a href="#" class="arrow"><</a>
+					<a href="#" class="arrow">></a>
+				</div>
+				<div id="prod8">
+					<a href="#"><img src="images/prod8.gif" title="prod8" alt="product8"></a>
+					<div class="prod-wrap">
+						<p>Био Шам Фастък<br>150 гр</p>
+						<img src="images/9.55.gif" title="old-price" alt="high-price">
+						<img src="images/7.66.gif" title="new-price" alt="low-price">
+					</div>
+				</div>
+				<div class="bl_line"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="mid_pics">
+		<img src="images/0rganic1.jpg" class="img-rounded" title="banner1" alt="picture1">
+		<img src="images/3-Health-Impacts-of-Growing-Your-Own-Bio-Food-Picture-1.jpg" class="img-rounded" title="banner2" alt="picture2">
+		<img src="images/Logo2.gif" title="logo2" alt="logo2">
+		<img src="images/100%bio.gif" title="bio-pic" alt="bio-pucture">
+	</div>
+</div>
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div id="foot-col-1">
+					<img src="images/Logo2.gif" title="logo2" alt="logo2">
+					<p><b>БИОСВЯТ</b> - това сме ние !<br>С грижа към хората и природата !</p>
+		        </div>
+			</div>
+			<div class="col-md-3">
+				<div id="col_1">
+					<a href="https://www.facebook.com"><img src="images/facebook.gif" class="social_icons" title="facebook" alt="facebook"></a>
+					<h2>МОЯТ ПРОФИЛ</h2>
+					<a href="#"><p>МОЯТ ПРОФИЛ</p></a>
+					<a href="#"><p>ХРОНОЛОГИЯ НА ПОРЪЧКИ</p></a>
+					<a href="#"><p>ЛЮБИМИ</p></a>
+					<a href="#"><p>ИНФОРМАЦИОНЕН БЮЛЕТИН</p></a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div id="col_2">
+					<a href="https://www.twitter.com"><img src="images/twitter.gif" class="social_icons" title="twitter" alt="twitter"></a>
+					<h2>ЕКСТРИ</h2>
+					<a href="#"><p>МАРКИ</p></a>
+					<a href="#"><p>ВАУЧЕРИ ЗА ПОДАРЪК</p></a>
+					<a href="#"><p>ПАРТНЬОРИ</p></a>
+					<a href="#"><p>НАМАЛЕНИ ПРОДУКТИ</p></a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div id="col_3">
+					<a href="https://www.google.com"><img src="images/google.gif" class="social_icons" title="google" alt="google"></a>
+					<h2>ОБСЛУЖВАНЕ НА<br>КЛИЕНТИ</h2>
+					<a href="#"><p>КОНТАКТ</p></a>
+					<a href="#"><p>ВРЪЩАНЕ НА СТОКИ</p></a>
+					<a href="#"><p>КАРТА НА САЙТА</p></a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div id="col_4">
+					<a href="https://www.instagram.com"><img src="images/instagram.gif" class="social_icons" title="instagram" alt="instagram"></a>
+					<h2>ПЛАЩАНЕ ЧРЕЗ</h2>
+					<div id="row_1">
+						<a href="#"><img src="images/visa.gif" title="visa" alt="visa"></a>
+						<a href="#"><img src="images/american-express.gif" title="american-express" alt="american-express"></a>
+					</div>
+					<div id="row_2">
+						<a href="#"><img src="images/mastercard.gif" title="mastercard" alt="mastercard"></a>
+						<a href="#"><img src="images/maestro.gif" title="maestro" alt="maestro"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="white_box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div id="rulz">
+						<p>biosviat.com 2012-2018<br>Всички права запазени</p>						
+					</div>
+				</div>
+				<div class="col-md-9">
+					<nav class="navbar navbar-inverse">
+						  <ul class="nav navbar-nav">
+						    <li><a href="#">ЗА НАС</a></li>
+						    <li><a href="#">УСЛОВИЯ ЗА ПОЛЗВАНЕ</a></li>
+						    <li><a href="#">ДЕКЛАРАЦИЯ ЗА ПОВЕРИТЕЛНОСТ</a></li>
+						    <li><a href="#">КАРТА НА САЙТА</a></li>
+						  </ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
